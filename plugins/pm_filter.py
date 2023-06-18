@@ -272,7 +272,7 @@ async def next_page(bot, query):
                     ],
                 )
     btn.insert(0, [
-        InlineKeyboardButton("! Check How to Download !", url="https://t.me/Shazam_bot_support")
+        InlineKeyboardButton("! Check How to Download !", url="https://t.me/Howtodownload_xyz/13")
     ])
     btn.insert(0, [
         InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
@@ -1486,7 +1486,7 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("! Check How to Download !", url="https://t.me/Shazam_bot_support")
+        InlineKeyboardButton("! Check How to Download !", url="https://t.me/Howtodownload_xyz/13")
     ])
 
     btn.insert(0, [
