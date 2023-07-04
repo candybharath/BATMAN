@@ -1,19 +1,18 @@
 class script(object):
-    START_TXT = """<b>Hᴇʟʟᴏ {},
+    START_TXT = """<b>HELLO {},
     
-MMʏ Nᴀᴍᴇ Is <a href=https://t.me/{}>{}</a>,
+MY NAME IS <a href=https://t.me/{}>{}</a>,
 
-💫 I AM POWERFUL AUTO-FILTER BOt,
-
-✨ I CAN PROVIDE MOVIES AND WEB SERIES.
-
-✨ ITS EASY TO USE ME. JUST ADD ME TO YOUR GROUP AND MAKE ME ADMIN.😍</b>"""
+I AM POWERFUL AUTO-FILTER BOT
+I CAN PROVIDE MOVIES AND WEB SERIES
+JUST TYPE THE MOVIE NAME
+ITS EASY TO USE ME. JUST ADD ME TO YOUR GROUP AND MAKE ME ADMIN</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     ABOUT_TXT = """<b>✯ Mʏ Nᴀᴍᴇ: {}
-✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Shazam_bot_support'>⚜️ DARK DEVILG ⚜️</a>
+✯ Cʀᴇᴀᴛᴏʀ: <a href='https://t.me/Shazam_bot_support'>BATMAN</a>
 ✯ Lɪʙʀᴀʀʏ: <a href='https://docs.pyrogram.org/'>Pʏʀᴏɢʀᴀᴍ</a>
 ✯ Lᴀɴɢᴜᴀɢᴇ: <a href='https://www.python.org/download/releases/3.0/'>Pʏᴛʜᴏɴ 3</a>
 ✯ DᴀᴛᴀBᴀsᴇ: <a href='https://www.mongodb.com/'>MᴏɴɢᴏDB</a>
@@ -22,9 +21,9 @@ Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
 
     SOURCE_TXT = """<b>ɴᴏᴛᴇ:
 - ᴛʜɪꜱ ʙᴏᴛ ɪꜱ ᴀ Private ꜱᴏᴜʀᴄᴇ ᴘʀᴏᴊᴇᴄᴛ.
-- For Premium - <a href="https://t.me/DwayneJohnsonl">ʜᴇʀᴇ</a>
+- For Premium - <a href="https://t.me/+EZFvXS82BFJlNDJl">ʜᴇʀᴇ</a>
 Dᴇᴠᴇʟᴏᴘᴇʀ:
-- <a href="https://t.me/DwayneJohnsonl">Dark Devil</a></b>"""
+- <a href="https://t.me/+EZFvXS82BFJlNDJl">BATMAN</a></b>"""
 
     MANUELFILTER_TXT = """ʜᴇʟᴘ: <b>ꜰɪʟᴛᴇʀꜱ</b>
 - ꜰɪʟᴛᴇʀ ɪꜱ ᴀ ꜰᴇᴀᴛᴜʀᴇ ᴡᴇʀᴇ ᴜꜱᴇʀꜱ ᴄᴀɴ ꜱᴇᴛ ᴀᴜᴛᴏᴍᴀᴛᴇᴅ ʀᴇᴘʟɪᴇꜱ ꜰᴏʀ ᴀ ᴘᴀʀᴛɪᴄᴜʟᴀʀ ᴋᴇʏᴡᴏʀᴅ ᴀɴᴅ ɪ ᴡɪʟʟ ʀᴇꜱᴘᴏɴᴅ ᴡʜᴇɴᴇᴠᴇʀ ᴀ ᴋᴇʏᴡᴏʀᴅ ɪꜱ ꜰᴏᴜɴᴅ ɪɴ ᴛʜᴇ ᴍᴇꜱꜱᴀɢᴇ
@@ -45,7 +44,7 @@ Cᴏᴍᴍᴀɴᴅs Aɴᴅ Usᴀɢᴇ:
 2. ᴛʜɪꜱ ʙᴏᴛ ꜱᴜᴘᴘᴏʀᴛꜱ ʙᴜᴛᴛᴏɴꜱ ᴡɪᴛʜ ᴀɴʏ ᴛᴇʟᴇɢʀᴀᴍ ᴍᴇᴅɪᴀ ᴛʏᴘᴇ.
 3. ʙᴜᴛᴛᴏɴꜱ ꜱʜᴏᴜʟᴅ ʙᴇ ᴘʀᴏᴘᴇʀʟʏ ᴘᴀʀꜱᴇᴅ ᴀꜱ ᴍᴀʀᴋᴅᴏᴡɴ ꜰᴏʀᴍᴀᴛ
 <b>ᴜʀʟ ʙᴜᴛᴛᴏɴꜱ:</b>
-<code>[Button Text](buttonurl:https://t.me/Shazam_bot_support)</code>
+<code>[Button Text](buttonurl:https://t.me/TamilMovies_Workshop)</code>
 <b>ᴀʟᴇʀᴛ ʙᴜᴛᴛᴏɴꜱ:</b>
 <code>[Button Text](buttonalert:ᴛʜɪꜱ ɪꜱ ᴀɴ ᴀʟᴇʀᴛ ᴍᴇꜱꜱᴀɢᴇ)</code>"""
 
@@ -161,17 +160,17 @@ Nᴀᴍᴇ - {}"""
 
 ›› sᴛᴇᴘ 𝟸 : ᴍᴀᴋᴇ ᴀᴄᴄᴏᴜɴᴛ ᴏɴ ᴍᴅɪꜱᴋʟɪɴᴋ.ʟɪɴᴋ. [ ʏᴏᴜ ᴄᴀɴ ᴀʟsᴏ ᴜsᴇᴅ ᴏᴛʜᴇʀ sʜᴏʀᴛɴᴇʀ ᴡᴇʙsɪᴛᴇ ]
 
-›› sᴛᴇᴘ 𝟹 : ғᴏʟʟᴏᴡ ᴛʜᴇsᴇ ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ (https://t.me/moviesworld738/122).
+›› sᴛᴇᴘ 𝟹 : ғᴏʟʟᴏᴡ ᴛʜᴇsᴇ ɪɴꜱᴛʀᴜᴄᴛɪᴏɴꜱ (https://t.me/TamilMovies_Workshop).
 
 ➥ ᴛʜɪꜱ ʙᴏᴛ ғʀᴇᴇ ғᴏʀ ᴀʟʟ ʏᴏᴜ ᴄᴀɴ ᴜꜱᴇ ᴛʜɪꜱ ʙᴏᴛ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘs ғʀᴇᴇ ᴏғ ᴄᴏꜱᴛ.
 
 ➥ᴅᴏɴ'ᴛ ᴡᴀɪᴛ ᴀɴʏ ʟᴏɴɢᴇʀ ᴛᴏ ꜱᴛᴀʀᴛ ᴇᴀʀɴɪɴɢ ᴍᴏɴᴇʏ ғʀᴏᴍ ʏᴏᴜʀ ᴛᴇʟᴇɢʀᴀᴍ ɢʀᴏᴜᴘ. ᴀᴅᴅ ᴏᴜʀ ʙᴏᴛ ᴛᴏᴅᴀʏ ᴀɴᴅ ꜱᴛᴀʀᴛ ᴍᴀᴋɪɴɢ ᴍᴏɴᴇʏ.
     
-• ꜰᴜʟʟ ɴᴀᴍᴇ : 𝐁𝐞𝐬𝐭𝐢𝐞𝐬⋆⃝亗⋆ͥ⋆ͣ⋆ͫ𖣔ꠋꠋ🇩α𝗿𝗸 🇩єνιℓ☯️ꙮ๊๊
+• ꜰᴜʟʟ ɴᴀᴍᴇ : BATMAN
 
-• ᴜꜱᴇʀɴᴀᴍᴇ : @DwayneJohnsonl
+• ᴜꜱᴇʀɴᴀᴍᴇ : DARK
 
-• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/DwayneJohnsonl'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
+• ᴘᴇʀᴍᴀɴᴇɴᴛ ᴅᴍ ʟɪɴᴋ : <a href='t.me/+EZFvXS82BFJlNDJl'>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a></b>"""
 
     REQINFO = """
 ⚠ ɪɴꜰᴏʀᴍᴀᴛɪᴏɴ ⚠
@@ -213,16 +212,11 @@ Nᴀᴍᴇ - {}"""
 
     CAPTION = """
 <b>📂 Fɪʟᴇ ɴᴀᴍᴇ : </b> <code>{file_name}</code>
-
 <b>
-╭─────── • ◆ • ───────╮
-🔅 OFFICIAL CHANNEL: @cinemaa_boxoffice 
-╰─────── • ◆ • ───────╯
-
-=========== • ✠ • ===========
-▫️ ᴄʜᴀɴɴᴇʟ : @Shazam_bot_support
-▫️ sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ : @Cinemaa_boxoffice_support
-=========== • ✠ • ===========</b>"""
+SUPPORT CHANNEL : @TamilMovies_Workshop
+MAIN CHANNEL : @TamilMovies_Workshop
+MOVIE SEARCH : @Moviezs_Store
+                 </b>"""
 
     IMDB_TEMPLATE_TXT = """
 <b>Query: {query}
