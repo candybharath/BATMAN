@@ -274,7 +274,7 @@ async def next_page(bot, query):
                     ],
                 )
     btn.insert(0, [
-        InlineKeyboardButton("! Check How to Download !", url="https://t.me/Shazam_bot_support")
+        InlineKeyboardButton("! Check How to Download !", url="https://t.me/Howtodownload_xyz/14")
     ])
     btn.insert(0, [
         InlineKeyboardButton("ʟᴀɴɢᴜᴀɢᴇs​", callback_data=f"languages#{search.replace(' ', '_')}#{key}")
@@ -445,9 +445,9 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(
                 0,
                 [
-                    InlineKeyboardButton(f'💛ɪɴꜰᴏ💛', 'reqinfo'),
-                    InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
-                    InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo'),
+                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo'),
                 ],
             )
 
@@ -455,9 +455,9 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(
                 0,
                 [
-                    InlineKeyboardButton(f'💛ɪɴꜰᴏ💛', 'reqinfo'),
-                    InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
-                    InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo'),
+                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo'),
                 ],
             )
 
@@ -469,9 +469,9 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(
                 0,
                 [
-                    InlineKeyboardButton(f'💛ɪɴꜰᴏ💛', 'reqinfo'),
-                    InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
-                    InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo'),
+                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo'),
                 ],
             )
 
@@ -479,9 +479,9 @@ async def filter_languages_cb_handler(client: Client, query: CallbackQuery):
             btn.insert(
                 0,
                 [
-                    InlineKeyboardButton(f'💛ɪɴꜰᴏ💛', 'reqinfo'),
-                    InlineKeyboardButton(f'💙ᴍᴏᴠɪᴇ💙', 'minfo'),
-                    InlineKeyboardButton(f'💜ꜱᴇʀɪᴇꜱ💜', 'sinfo'),
+                    InlineKeyboardButton(f'ɪɴꜰᴏ', 'reqinfo'),
+                    InlineKeyboardButton(f'ᴍᴏᴠɪᴇ', 'minfo'),
+                    InlineKeyboardButton(f'ꜱᴇʀɪᴇꜱ', 'sinfo'),
                 ],
             )
 
@@ -1171,14 +1171,14 @@ async def cb_handler(client: Client, query: CallbackQuery):
 
     elif query.data == "start":
         buttons = [[
-                    InlineKeyboardButton('🥰 Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ 🥰', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
+                    InlineKeyboardButton('Aᴅᴅ Mᴇ Tᴏ Yᴏᴜʀ Gʀᴏᴜᴘ', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
                 ],[
-                    InlineKeyboardButton('🔱 Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
-                    InlineKeyboardButton('🆘 Hᴇʟᴘ', callback_data='help')
+                    InlineKeyboardButton('Sᴜᴘᴘᴏʀᴛ Gʀᴏᴜᴘ', url=GRP_LNK),
+                    InlineKeyboardButton('Hᴇʟᴘ', callback_data='help')
                 ],[
-                    InlineKeyboardButton('⚜ Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ ⚜', url=CHNL_LNK)
+                    InlineKeyboardButton('Jᴏɪɴ Uᴘᴅᴀᴛᴇs Cʜᴀɴɴᴇʟ', url=CHNL_LNK)
                 ],[
-                    InlineKeyboardButton('💸 Eᴀʀɴ Mᴏɴᴇʏ Wɪᴛʜ Bᴏᴛ 🤑', callback_data="owner_info")
+                    InlineKeyboardButton('Eᴀʀɴ Mᴏɴᴇʏ Wɪᴛʜ Bᴏᴛ', callback_data="owner_info")
                   ]]
         
         reply_markup = InlineKeyboardMarkup(buttons)
@@ -1666,11 +1666,11 @@ async def auto_filter(client, msg, spoll=False):
             )
 
     btn.insert(0, [
-        InlineKeyboardButton("! Check How to Download !", url="https://t.me/Shazam_bot_support")
+        InlineKeyboardButton(" Check How to Download", url="https://t.me/Howtodownload_xyz/14")
     ])
 
     btn.insert(0, [
-        InlineKeyboardButton("⚡ Cʜᴇᴄᴋ Bᴏᴛ PM ⚡", url=f"https://t.me/{temp.U_NAME}")
+        InlineKeyboardButton("Cʜᴇᴄᴋ Bᴏᴛ PM", url=f"https://t.me/{temp.U_NAME}")
     ])
 
     if offset != "":
