@@ -1,12 +1,9 @@
 class script(object):
-    START_TXT = """<b>HELLO {},
-    
+    START_TXT = """<b>HELLO{}, 
 MY NAME IS <a href=https://t.me/{}>{}</a>,
-
 I AM POWERFUL AUTO-FILTER BOT
 I CAN PROVIDE MOVIES AND WEB SERIES
-JUST TYPE THE MOVIE NAME
-ITS EASY TO USE ME. JUST ADD ME TO YOUR GROUP AND MAKE ME ADMIN</b>"""
+</b>"""
 
     HELP_TXT = """<b>Hᴇʏ {}
 Hᴇʀᴇ Is Tʜᴇ Hᴇʟᴘ Fᴏʀ Mʏ Cᴏᴍᴍᴀɴᴅs.</b>"""
